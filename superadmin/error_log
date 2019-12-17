@@ -1,0 +1,593 @@
+[10-Dec-2019 12:17:00 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[10-Dec-2019 20:17:24 Asia/Manila] PHP Fatal error:  Call to a member function setAttribute() on null in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 45
+[10-Dec-2019 12:22:16 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[10-Dec-2019 12:23:40 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[10-Dec-2019 20:23:48 Asia/Manila] PHP Warning:  include_once(objects/product.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 20:23:48 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/product.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 20:23:48 Asia/Manila] PHP Fatal error:  Class 'Product' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 22
+[10-Dec-2019 12:23:54 Etc/GMT] PHP Fatal error:  Call to a member function custId() on null in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_customer.php on line 85
+[10-Dec-2019 12:25:31 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contact_person_name' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:430
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(430): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/view_employee.php(34): Employee->readOne()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 430
+[10-Dec-2019 12:27:03 Etc/GMT] PHP Fatal error:  Call to a member function custId() on null in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_customer.php on line 85
+[10-Dec-2019 12:36:16 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contact_person_name' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:430
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(430): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/view_employee.php(34): Employee->readOne()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 430
+[10-Dec-2019 12:41:34 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[10-Dec-2019 20:43:41 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[10-Dec-2019 20:43:44 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[10-Dec-2019 20:43:44 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[10-Dec-2019 20:44:23 Asia/Manila] PHP Warning:  include_once(objects/group.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:44:23 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/group.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:44:23 Asia/Manila] PHP Fatal error:  Class 'Group' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 22
+[10-Dec-2019 20:44:25 Asia/Manila] PHP Warning:  include_once(objects/group.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:44:25 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/group.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:44:25 Asia/Manila] PHP Fatal error:  Class 'Group' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 22
+[10-Dec-2019 20:44:25 Asia/Manila] PHP Warning:  include_once(objects/group.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:44:25 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/group.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:44:25 Asia/Manila] PHP Fatal error:  Class 'Group' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 22
+[10-Dec-2019 20:44:26 Asia/Manila] PHP Warning:  include_once(objects/group.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:44:26 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/group.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:44:26 Asia/Manila] PHP Fatal error:  Class 'Group' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 22
+[10-Dec-2019 20:46:03 Asia/Manila] PHP Warning:  include_once(objects/group.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:46:03 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/group.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:46:03 Asia/Manila] PHP Fatal error:  Class 'Group' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 22
+[10-Dec-2019 20:46:09 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[10-Dec-2019 12:46:34 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:430
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(430): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/view_employee.php(34): Employee->readOne()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 430
+[10-Dec-2019 12:46:36 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[10-Dec-2019 20:46:44 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[10-Dec-2019 20:46:50 Asia/Manila] PHP Warning:  include_once(objects/group.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:46:50 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/group.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 20:46:50 Asia/Manila] PHP Fatal error:  Class 'Group' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 22
+[10-Dec-2019 20:49:42 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'location' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[10-Dec-2019 20:49:46 Asia/Manila] PHP Warning:  include_once(objects/product.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 20:49:46 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/product.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 20:49:46 Asia/Manila] PHP Fatal error:  Class 'Product' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 22
+[10-Dec-2019 20:50:31 Asia/Manila] PHP Warning:  include_once(objects/product.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 20:50:31 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/product.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 20:50:31 Asia/Manila] PHP Fatal error:  Class 'Product' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 22
+[10-Dec-2019 20:50:36 Asia/Manila] PHP Warning:  include_once(objects/product.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 20:50:36 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/product.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 20:50:36 Asia/Manila] PHP Fatal error:  Class 'Product' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 22
+[10-Dec-2019 12:50:39 Etc/GMT] PHP Fatal error:  Call to a member function custId() on null in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_customer.php on line 85
+[10-Dec-2019 20:52:43 Asia/Manila] PHP Warning:  include_once(objects/customer.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_customer.php on line 14
+[10-Dec-2019 20:52:43 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/customer.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_customer.php on line 14
+[10-Dec-2019 20:52:43 Asia/Manila] PHP Fatal error:  Class 'Customer' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_customer.php on line 22
+[10-Dec-2019 12:57:56 Etc/GMT] PHP Notice:  Undefined index: region in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 57
+[10-Dec-2019 12:57:56 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dwleaalz_new_erp_system`.`employee_master`, CONSTRAINT `region_emp_pk_fk` FOREIGN KEY (`region`) REFERENCES `group_master` (`group_name`) ON DELETE CASCADE ON UPDATE CASCADE)' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:523
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(523): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php(60): Employee->update()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 523
+[10-Dec-2019 13:02:57 Etc/GMT] PHP Notice:  Undefined index: region in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 57
+[10-Dec-2019 13:02:57 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dwleaalz_new_erp_system`.`employee_master`, CONSTRAINT `region_emp_pk_fk` FOREIGN KEY (`region`) REFERENCES `group_master` (`group_name`) ON DELETE CASCADE ON UPDATE CASCADE)' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:523
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(523): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php(60): Employee->update()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 523
+[10-Dec-2019 21:04:12 Asia/Manila] PHP Warning:  include_once(objects/product.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 21:04:12 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/product.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 21:04:12 Asia/Manila] PHP Fatal error:  Class 'Product' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 22
+[10-Dec-2019 13:08:28 Etc/GMT] PHP Notice:  Undefined index: region in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 57
+[10-Dec-2019 13:08:28 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`dwleaalz_new_erp_system`.`employee_master`, CONSTRAINT `region_emp_pk_fk` FOREIGN KEY (`region`) REFERENCES `group_master` (`group_name`) ON DELETE CASCADE ON UPDATE CASCADE)' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:523
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(523): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php(60): Employee->update()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 523
+[10-Dec-2019 13:08:57 Etc/GMT] PHP Warning:  Creating default object from empty value in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 20
+[10-Dec-2019 13:08:57 Etc/GMT] PHP Notice:  Undefined index: region in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 26
+[10-Dec-2019 13:08:57 Etc/GMT] PHP Fatal error:  Call to undefined method stdClass::update() in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 29
+[10-Dec-2019 13:09:05 Etc/GMT] PHP Warning:  Creating default object from empty value in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 20
+[10-Dec-2019 13:09:05 Etc/GMT] PHP Notice:  Undefined index: region in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 26
+[10-Dec-2019 13:09:05 Etc/GMT] PHP Fatal error:  Call to undefined method stdClass::update() in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 29
+[10-Dec-2019 13:09:25 Etc/GMT] PHP Warning:  Creating default object from empty value in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 20
+[10-Dec-2019 13:09:25 Etc/GMT] PHP Notice:  Undefined index: region in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 26
+[10-Dec-2019 13:09:25 Etc/GMT] PHP Fatal error:  Call to undefined method stdClass::update() in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 29
+[10-Dec-2019 21:18:22 Asia/Manila] PHP Warning:  include_once(objects/product.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 21:18:22 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/product.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 21:18:22 Asia/Manila] PHP Fatal error:  Class 'Product' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 22
+[10-Dec-2019 21:18:30 Asia/Manila] PHP Warning:  include_once(objects/product.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 21:18:30 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/product.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 14
+[10-Dec-2019 21:18:30 Asia/Manila] PHP Fatal error:  Class 'Product' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_product.php on line 22
+[10-Dec-2019 21:18:34 Asia/Manila] PHP Warning:  include_once(objects/group.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 21:18:34 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/group.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 21:18:34 Asia/Manila] PHP Fatal error:  Class 'Group' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 22
+[10-Dec-2019 21:19:04 Asia/Manila] PHP Warning:  include_once(objects/group.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 21:19:04 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/group.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 14
+[10-Dec-2019 21:19:04 Asia/Manila] PHP Fatal error:  Class 'Group' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_group.php on line 22
+[10-Dec-2019 14:21:35 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 02:14:45 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 02:14:56 Etc/GMT] PHP Warning:  Creating default object from empty value in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 20
+[11-Dec-2019 02:14:56 Etc/GMT] PHP Notice:  Undefined index: region in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 26
+[11-Dec-2019 02:14:56 Etc/GMT] PHP Fatal error:  Call to undefined method stdClass::update() in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 29
+[11-Dec-2019 02:15:04 Etc/GMT] PHP Warning:  Creating default object from empty value in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 20
+[11-Dec-2019 02:15:04 Etc/GMT] PHP Notice:  Undefined index: region in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 26
+[11-Dec-2019 02:15:04 Etc/GMT] PHP Fatal error:  Call to undefined method stdClass::update() in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 29
+[11-Dec-2019 02:15:15 Etc/GMT] PHP Warning:  Creating default object from empty value in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 20
+[11-Dec-2019 02:15:15 Etc/GMT] PHP Notice:  Undefined index: region in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 26
+[11-Dec-2019 02:15:15 Etc/GMT] PHP Fatal error:  Call to undefined method stdClass::update() in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php on line 29
+[11-Dec-2019 04:44:44 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 04:56:10 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 05:14:18 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 06:42:05 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 06:43:03 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 14:43:26 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'localtion' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[11-Dec-2019 14:43:28 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'localtion' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[11-Dec-2019 07:11:53 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 07:12:08 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contact_person_name' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:430
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(430): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/view_employee.php(34): Employee->readOne()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 430
+[11-Dec-2019 07:12:11 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contact_person_name' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:430
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(430): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/view_employee.php(34): Employee->readOne()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 430
+[11-Dec-2019 15:12:15 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'localtion' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[11-Dec-2019 15:12:17 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'localtion' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[11-Dec-2019 15:12:17 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'localtion' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[11-Dec-2019 15:12:18 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'localtion' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[11-Dec-2019 15:12:22 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'localtion' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:371
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(371): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_employee.php(25): Employee->readAll(0, 5)
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 371
+[11-Dec-2019 07:12:42 Etc/GMT] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'contact_person_name' in 'field list'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php:430
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php(430): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/update_employee.php(71): Employee->readOne()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/employee.php on line 430
+[11-Dec-2019 12:17:12 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 12:24:06 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 12:59:29 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 21:05:59 Asia/Manila] PHP Warning:  include_once(objects/location.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/customer_location.php on line 14
+[11-Dec-2019 21:05:59 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/location.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/customer_location.php on line 14
+[11-Dec-2019 21:05:59 Asia/Manila] PHP Fatal error:  Class 'Location' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/customer_location.php on line 22
+[11-Dec-2019 21:06:28 Asia/Manila] PHP Warning:  include_once(objects/location.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/customer_location.php on line 14
+[11-Dec-2019 21:06:28 Asia/Manila] PHP Warning:  include_once(): Failed opening 'objects/location.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/customer_location.php on line 14
+[11-Dec-2019 21:06:28 Asia/Manila] PHP Fatal error:  Class 'Location' not found in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/customer_location.php on line 22
+[11-Dec-2019 21:15:01 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'PRACO' for key 'PRIMARY'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/customer.php:143
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/customer.php(143): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_customer.php(57): Customer->create()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/objects/customer.php on line 143
+[11-Dec-2019 19:18:17 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:17 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:17 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:17 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:17 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:17 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 19:18:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 17:00:17 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[11-Dec-2019 22:30:23 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:30:23 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:30:23 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:30:23 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:30:23 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:30:23 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:31:41 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:31:41 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:31:41 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:31:41 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:31:41 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:31:41 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[11-Dec-2019 22:32:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 00:54:31 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[12-Dec-2019 09:37:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 09:37:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 09:37:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 09:37:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 09:37:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 09:37:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 04:07:23 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[12-Dec-2019 09:45:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 09:45:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 09:45:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 09:45:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 09:45:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 09:45:04 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 04:15:21 Etc/GMT] PHP Notice:  Undefined index: name in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/index.php on line 17
+[12-Dec-2019 10:05:02 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 10:05:02 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 10:05:02 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 10:05:02 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 10:05:02 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 10:05:02 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/create_visit.php on line 190
+[12-Dec-2019 16:56:42 Asia/Manila] PHP Fatal error:  Call to a member function setAttribute() on null in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/objects/employee.php on line 51
+[12-Dec-2019 09:20:59 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[12-Dec-2019 09:20:59 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[12-Dec-2019 14:56:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 14:56:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 14:56:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 14:56:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 14:56:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 14:56:24 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 12:01:45 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[12-Dec-2019 12:01:45 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[12-Dec-2019 13:01:15 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[12-Dec-2019 13:01:15 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[12-Dec-2019 13:01:42 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[12-Dec-2019 13:01:42 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[12-Dec-2019 18:45:58 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 18:45:58 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 18:45:58 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 18:45:58 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 18:45:58 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 18:45:58 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:21:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:21:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:21:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:21:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:21:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:21:20 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:38 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:38 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:38 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:38 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:38 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:22:38 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:24:18 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:24:18 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:24:18 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:24:18 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:24:18 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[12-Dec-2019 19:24:18 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 03:59:04 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 03:59:04 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 03:59:12 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 03:59:12 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 03:59:14 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 03:59:14 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 04:15:39 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 04:15:39 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 04:16:07 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 04:16:07 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 04:16:10 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 04:16:10 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 04:41:47 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 04:42:12 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 10:35:35 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 10:35:35 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 10:35:35 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 10:35:35 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 10:35:35 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 10:35:35 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 05:26:57 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:26:57 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:27:14 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:27:17 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:29:04 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:29:24 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:30:08 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:34:17 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:34:43 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:35:26 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:35:26 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:35:30 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:35:30 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:37:39 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:37:39 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:37:43 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:37:43 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:37:53 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:38:16 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:39:40 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:39:45 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:41:45 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:41:45 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:41:49 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:41:49 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:42:46 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:46:49 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:46:49 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:46:53 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:46:53 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:47:01 Etc/GMT] PHP Warning:  require_once(top_nav_login.php): failed to open stream: No such file or directory in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:47:01 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'top_nav_login.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/index.php on line 2
+[13-Dec-2019 05:55:30 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:55:36 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:55:40 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:55:43 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:55:47 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:58:51 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 05:59:44 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 126
+[13-Dec-2019 06:47:37 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/customer_dashboard.php on line 66
+[13-Dec-2019 06:47:43 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/customer_dashboard.php on line 66
+[13-Dec-2019 06:47:47 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/customer_dashboard.php on line 66
+[13-Dec-2019 06:47:56 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/employee_dashboard.php on line 19
+[13-Dec-2019 06:48:20 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/group_dashboard.php on line 73
+[13-Dec-2019 06:48:34 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/group_dashboard.php on line 73
+[13-Dec-2019 06:48:40 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/employee_dashboard.php on line 19
+[13-Dec-2019 06:48:43 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/product_dashboard.php on line 73
+[13-Dec-2019 06:48:47 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/customer_dashboard.php on line 66
+[13-Dec-2019 06:48:49 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/visit_dashboard.php on line 73
+[13-Dec-2019 06:49:11 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/product_dashboard.php on line 73
+[13-Dec-2019 06:49:14 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/employee_dashboard.php on line 19
+[13-Dec-2019 06:49:16 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/group_dashboard.php on line 73
+[13-Dec-2019 06:49:19 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/visit_dashboard.php on line 73
+[13-Dec-2019 06:49:23 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/visit_dashboard.php on line 73
+[13-Dec-2019 06:49:26 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/customer_dashboard.php on line 66
+[13-Dec-2019 06:49:28 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/product_dashboard.php on line 73
+[13-Dec-2019 06:49:31 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/employee_dashboard.php on line 19
+[13-Dec-2019 06:49:33 Etc/GMT] PHP Notice:  Trying to get property of non-object in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/group_dashboard.php on line 73
+[13-Dec-2019 12:36:59 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:36:59 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:36:59 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:36:59 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:36:59 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:36:59 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:57:22 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:57:22 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:57:22 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:57:22 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:57:22 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 12:57:22 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 13:00:01 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 13:00:01 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 13:00:01 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 13:00:01 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 13:00:01 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 13:00:01 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 08:19:11 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[13-Dec-2019 14:38:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 14:38:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 14:38:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 14:38:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 14:38:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 14:38:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[13-Dec-2019 11:13:35 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[13-Dec-2019 11:15:26 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[13-Dec-2019 11:18:05 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[13-Dec-2019 11:18:14 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[13-Dec-2019 11:18:21 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[13-Dec-2019 11:21:26 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[13-Dec-2019 19:31:49 Asia/Manila] PHP Notice:  Undefined index: time in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_group.php on line 42
+[16-Dec-2019 10:42:19 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 10:42:19 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 10:42:19 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 10:42:19 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 10:42:19 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 10:42:19 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:28:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:28:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:28:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:28:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:28:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:28:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:50:21 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:50:21 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:50:21 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:50:21 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:50:21 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 11:50:21 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 08:37:57 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[16-Dec-2019 14:19:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:14 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:19:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:22:03 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:33:56 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:33:56 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:33:56 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:33:56 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:33:56 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:33:56 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:59:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:59:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:59:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:59:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:59:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 14:59:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:02:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:02:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:02:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:02:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:02:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:02:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:06 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:07 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:07 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:07 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:07 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:07 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:07 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:09 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:09 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:09 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:09 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:09 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:09 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:12 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:12 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:12 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:12 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:12 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:12 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:28 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:28 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:28 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:28 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:28 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:28 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:45 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:49 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:50 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:50 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:50 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:50 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:50 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[16-Dec-2019 15:03:50 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 06:41:44 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[17-Dec-2019 06:41:52 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[17-Dec-2019 14:44:21 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ab-12345' for key 'PRIMARY'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/objects/employee.php:128
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/objects/employee.php(128): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_employee.php(51): Employee->create()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/objects/employee.php on line 128
+[17-Dec-2019 14:44:55 Asia/Manila] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'ab-12345' for key 'PRIMARY'' in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/objects/employee.php:128
+Stack trace:
+#0 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/objects/employee.php(128): PDOStatement->execute()
+#1 /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_employee.php(51): Employee->create()
+#2 {main}
+  thrown in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/objects/employee.php on line 128
+[17-Dec-2019 12:24:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:24:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:24:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:24:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:24:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:24:57 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:30:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:30:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:30:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:30:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:30:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 12:30:36 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 07:03:38 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[17-Dec-2019 07:03:47 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[17-Dec-2019 07:06:20 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[17-Dec-2019 07:06:26 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[17-Dec-2019 07:10:38 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[17-Dec-2019 07:39:46 Etc/GMT] PHP Notice:  Undefined property: Employee::$agentFlag in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/view_employee.php on line 134
+[17-Dec-2019 13:30:11 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 13:30:11 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 13:30:11 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 13:30:11 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 13:30:11 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
+[17-Dec-2019 13:30:11 Asia/Calcutta] PHP Notice:  Undefined index: Status in /home/dwleaalz/public_html/dw-learnwell.com/erpsystem/superadmin/create_visit.php on line 190
